@@ -62,6 +62,8 @@ void sub(stack_t **stack, unsigned int line_number);
 void div(stack_t **stack, unsigned int line_number);
 void mul(stack_t **stack, unsigned int line_number);
 void mod(stack_t **stack, unsigned int line_number);
+void pchar(stack_t **stack, unsigned int line_number);
+void pstr(stack_t **stack, unsigned int line_number);
 void free_stack(int status, void *arg);
 void fs_close(int status, void *arg);
 void free_lineptr(int status, void *arg);

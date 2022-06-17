@@ -23,6 +23,8 @@ void get_op(char *op, stack_t **stack, unsigned int line_number)
 		{"mul", mul},
 		{"div", div},
 		{"mod", mod},
+        {"pchar", pchar},
+		{"pstr", pstr},
 		{NULL, NULL}
 	};
 
