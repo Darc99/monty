@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /* global struct to hold flag for queue and stack length */
-var_n var;
+var_t var;
 
 /**
  * main - Monty bytecode interpreter
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 	}
 	on_exit(free_lineptr, &lineptr);
 	on_exit(free_stack, &stack);
-	on_exit(fs_close, fs);
+	on_exit(m_fs_close, fs);
 	while (getline(&lineptr, &n, fs) != -1)
 	{
 		line_number++;

@@ -7,7 +7,7 @@
  *
  * Return: void
  */
-void fs_close(int status, void *arg)
+void m_fs_close(int status, void *arg)
 {
 	FILE *fs;
 

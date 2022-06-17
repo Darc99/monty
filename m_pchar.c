@@ -2,13 +2,13 @@
 #include <ctype.h>
 
 /**
- * pchar - print character from top of stack
+ * m_pchar - print character from top of stack
  * @stack: double pointer to top of stack
  * @line_number: line number of current operation
  *
  * Return: void
  */
-void pchar(stack_t **stack, unsigned int line_number)
+void m_pchar(stack_t **stack, unsigned int line_number)
 {
 	int ch;
 

@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * mul - multiply top two elements of stack and push result
+ * m_mul - multiply top two elements of stack and push result
  * @stack: double pointer to head of stack
  * @line_number: line number of current operation
  *
  * Return: void
  */
-void mul(stack_t **stack, unsigned int line_number)
+void m_mul(stack_t **stack, unsigned int line_number)
 {
 	int n;
 

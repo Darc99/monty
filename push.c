@@ -28,7 +28,7 @@ static int check_for_digit(char *arg)
  *
  * Return: void
  */
-void push(stack_t **stack, unsigned int line_number)
+void m_push(stack_t **stack, unsigned int line_number)
 {
 	char *arg;
 	int n;
