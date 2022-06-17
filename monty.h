@@ -66,6 +66,8 @@ void pchar(stack_t **stack, unsigned int line_number);
 void pstr(stack_t **stack, unsigned int line_number);
 void p_stack(stack_t **stack, unsigned int line_number);
 void p_queue(stack_t **stack, unsigned int line_number);
+void rotl(stack_t **stack, unsigned int line_number);
+void rotr(stack_t **stack, unsigned int line_number);
 void free_stack(int status, void *arg);
 void fs_close(int status, void *arg);
 void free_lineptr(int status, void *arg);

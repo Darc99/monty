@@ -27,6 +27,8 @@ void get_op(char *op, stack_t **stack, unsigned int line_number)
 		{"pstr", pstr},
         {"stack", p_stack},
 		{"queue", p_queue},
+        {"rotl", rotl},
+		{"rotr", rotr},
 		{NULL, NULL}
 	};
 
