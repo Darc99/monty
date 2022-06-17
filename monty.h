@@ -50,6 +50,7 @@ typedef struct var_s
 
 extern var_n var;
 
+void get_op(char *op, stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void push(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
@@ -57,4 +58,5 @@ void pop(stack_t **stack, unsigned int line_number);
 void free_stack(int status, void *arg);
 void fs_close(int status, void *arg);
 void free_lineptr(int status, void *arg);
+
 #endif
